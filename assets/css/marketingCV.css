@@ -1,0 +1,64 @@
+/* digital marketing CV */
+.marketing {
+  width: 85%;
+  height: 90%;
+  padding: 20px 10px;
+  margin: 0;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: normal;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.marketing img {
+  width: 110px;
+  border-radius: 50%;
+}
+.marketing p {
+  font-size: 10px;
+}
+.marketing hr {
+  margin: 10px 0;
+}
+.marketing i {
+  font-size: 15px;
+  margin-right: 10px;
+}
+.marketing li {
+  font-size: 10px;
+}
+ul {
+  padding-left: 15px;
+}
+.skills span {
+  font-size: 10px;
+  background-color: rgb(70, 143, 153);
+  border-radius: 4px;
+  padding-bottom: 3px;
+  margin: 5px;
+}
+.contacts {
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+  padding: 5px;
+  color: white;
+  font-size: 10px;
+}
+.contacts span {
+  margin-right: 10px;
+}
+.pc {
+  background-color: rgb(70, 143, 153);
+}
+.pcolor {
+  color: rgb(70, 143, 153);
+}
+.topmargin {
+  margin-top: 20px;
+}
+.square {
+  width: 15px;
+  height: 2px;
+  background-color: rgb(44, 187, 173);
+  margin-top: 15px;
+}

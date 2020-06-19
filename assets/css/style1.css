@@ -1,0 +1,47 @@
+/* first page  -  The Ultimate CV and Portfolio Check - List*/
+.main1 {
+  position: relative;
+  height: 100vh;
+}
+.main1-context {
+  padding: 100px;
+}
+.text {
+  margin-top: 70px;
+}
+.text h1 {
+  font-size: 45px;
+  color: black;
+  font-weight: bold;
+}
+.text p {
+  color: gray;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.text button {
+  padding: 10px 40px;
+  margin-top: 40px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.text button:hover {
+  background-color: white;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+}
+.image {
+  height: 100%;
+  padding: 0;
+}
+.image img {
+  width: 580px;
+}
+footer {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 10px;
+}

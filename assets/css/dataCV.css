@@ -1,0 +1,77 @@
+/* data science CV */
+.data {
+  width: 85%;
+  height: 90%;
+  padding: 20px 10px;
+  margin: 0;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: normal;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.data img {
+  width: 110px;
+  border-radius: 50%;
+}
+.data p {
+  font-size: 10px;
+}
+.data hr {
+  margin: 10px 0;
+}
+.data i {
+  font-size: 15px;
+  margin-right: 10px;
+}
+.data li {
+  font-size: 10px;
+}
+ul {
+  margin: 0;
+  padding-left: 10px;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -10px;
+}
+ul.dashed > li:before {
+  content: "-";
+}
+.contacts {
+  text-align: center;
+}
+.contacts span {
+  margin-right: 10px;
+}
+.skills h6 {
+  margin: 15px;
+}
+.informaledu h6 {
+  border: 1px solid rgb(54, 68, 88);
+  width: fit-content;
+  border-radius: 4px;
+  padding: 5px;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid rgb(54, 68, 88);
+  padding: 5px;
+  margin: 7px;
+}
+.pc {
+  background-color: rgb(54, 68, 88);
+}
+.pcolor {
+  color: rgb(54, 68, 88);
+}
+.topmargin {
+  margin-top: 20px;
+}
+.pointer {
+  cursor: pointer;
+}

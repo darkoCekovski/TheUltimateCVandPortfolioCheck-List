@@ -1,0 +1,48 @@
+/*  design CV*/
+.design {
+  width: 85%;
+  height: 90%;
+  padding: 20px 10px;
+  margin: 0;
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: normal;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.design p {
+  font-size: 10px;
+}
+.marg {
+  margin: 3px 0;
+}
+.intro {
+  margin: 140px 0 60px 0;
+}
+.name {
+  padding: 100px 30px 30px 30px;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  position: absolute;
+  top: -140px;
+  left: -3px;
+}
+.name h2 {
+  width: fit-content;
+  letter-spacing: 4px;
+}
+.name h5 {
+  font-weight: 200;
+  letter-spacing: 7px;
+}
+.cover {
+  position: relative;
+  border: 3px solid black;
+  padding: 30px;
+  margin-top: 80px;
+  height: fit-content;
+}
+.left-cv {
+  padding-bottom: 60px;
+}

@@ -1,0 +1,50 @@
+/*  web development CV*/
+.webdev {
+  width: 85%;
+  height: 90%;
+  padding: 20px 10px;
+  margin: 0;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: normal;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.webdev p {
+  font-size: 10px;
+}
+.webdev hr {
+  margin: 5px 0;
+}
+.webdev img {
+  width: 130px;
+  border-radius: 50%;
+}
+.webdev i {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.webdev li {
+  font-size: 10px;
+}
+.contacts {
+  text-align: right;
+  padding-right: 30px;
+}
+.we {
+  padding-left: 60px;
+}
+.we-text {
+  padding-left: 40px;
+}
+.webdev span {
+  font-size: 10px;
+  background-color: rgb(44, 187, 173);
+  border-radius: 4px;
+  padding-bottom: 3px;
+}
+.square {
+  width: 40px;
+  height: 70px;
+  background-color: rgb(44, 187, 173);
+}

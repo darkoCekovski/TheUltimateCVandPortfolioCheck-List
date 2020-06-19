@@ -1,0 +1,29 @@
+/* Pop Up */
+.main-pop-up {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+  .pop-up-image {
+    background-image: url("../images/Background for pop-up.png");
+    background-position-x: 50%;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+  .pop-up-text {
+    margin: 70px 0px 0 200px;
+  }
+  .pop-up-text h1,
+  .pop-up-text p {
+    color: black;
+    font-weight: bold;
+  }
+  .pop-up-text p {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  .pop-up-text span {
+    color: rgb(221, 86, 126);
+  }

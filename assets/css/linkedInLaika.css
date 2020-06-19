@@ -1,0 +1,176 @@
+/*style LinkedIn Laika pages*/
+.main-linkedin-laika {
+    height: 100vh;
+  }
+  .buttons-linkedin-laika {
+    margin: 80px 0 0 20px;
+  }
+  .buttons-linkedin-laika button {
+    box-shadow: 0px 10px 19px -12px rgba(0, 0, 0, 0.5);
+  }
+  .left-linkedin-laika {
+    height: 60vh;
+    overflow: auto;
+    margin: 60px 20px 10px 20px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.15);
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .left-linkedin-laika img {
+    width: 100%;
+  }
+  .right-tips-linkedin-laika {
+    height: 60vh;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.15);
+    margin: 60px 10px 30px 40px;
+    padding: 50px 20px;
+    color: gray;
+    font-weight: bold;
+  }
+  
+  /* LinkedIn Tips */
+  .pic_bill_linkedin {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    border-radius: 50%;
+  }
+  .title_linkedin {
+    width: 340px;
+    height: 20px;
+    position: absolute;
+    top: 290px;
+    left: 35px;
+  }
+  .about_linkedin {
+    width: 760px;
+    height: 200px;
+    position: absolute;
+    top: 370px;
+    left: 20px;
+  }
+  .activity_linkedin {
+    width: 760px;
+    height: 400px;
+    position: absolute;
+    top: 580px;
+    left: 20px;
+  }
+  .experience_linkedin {
+    width: 760px;
+    height: 250px;
+    position: absolute;
+    top: 1000px;
+    left: 20px;
+  }
+  .education_linkedin {
+    width: 760px;
+    height: 255px;
+    position: absolute;
+    top: 1260px;
+    left: 20px;
+  }
+  .interests_linkedin {
+    width: 760px;
+    height: 300px;
+    position: absolute;
+    top: 1520px;
+    left: 20px;
+  }
+  
+  /* Laika Tips */
+  .email_laika {
+    width: 650px;
+    height: 55px;
+    position: absolute;
+    top: 240px;
+  }
+  .social_laika {
+    width: 650px;
+    height: 300px;
+    position: absolute;
+    top: 410px;
+    left: 70px;
+  }
+  .reason_laika {
+    width: 650px;
+    height: 70px;
+    position: absolute;
+    top: 1020px;
+    left: 70px;
+  }
+  .industry_laika {
+    width: 650px;
+    height: 230px;
+    position: absolute;
+    top: 1700px;
+    left: 70px;
+  }
+  .experience_laika {
+    width: 650px;
+    height: 250px;
+    position: absolute;
+    top: 1970px;
+    left: 70px;
+  }
+  .education_laika {
+    width: 650px;
+    height: 260px;
+    position: absolute;
+    top: 2730px;
+    left: 70px;
+  }
+  .location_laika {
+    width: 650px;
+    height: 140px;
+    position: absolute;
+    top: 3130px;
+    left: 70px;
+  }
+  .job_laika {
+    width: 650px;
+    height: 50px;
+    position: absolute;
+    top: 3330px;
+    left: 70px;
+  }
+  .title_laika {
+    width: 650px;
+    height: 140px;
+    position: absolute;
+    top: 3390px;
+    left: 70px;
+  }
+  .oportunity_laika {
+    width: 650px;
+    height: 140px;
+    position: absolute;
+    top: 3540px;
+    left: 70px;
+  }
+  .levelExp_laika {
+    width: 650px;
+    height: 160px;
+    position: absolute;
+    top: 4000px;
+    left: 70px;
+  }
+  .salary_laika {
+    width: 650px;
+    height: 200px;
+    position: absolute;
+    top: 4180px;
+    left: 70px;
+  }
+  .job_plan_laika {
+    width: 650px;
+    height: 110px;
+    position: absolute;
+    top: 4390px;
+    left: 70px;
+  }

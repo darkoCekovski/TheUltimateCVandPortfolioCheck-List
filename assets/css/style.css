@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Circular;
+  src: url(../fonts/circular_std_font.otf) format("opentype");
+}
+body {
+  position: relative;
+  background-image: url("../images/background.png");
+  margin: 0;
+  padding: 0;
+  font-family: Circular;
+  letter-spacing: 2px;
+}
+
+/* buttons all pages */
+.btn {
+  letter-spacing: 2px;
+}
+.buttons button {
+  margin-top: 20px;
+  box-shadow: 0px 10px 19px -12px rgba(0, 0, 0, 0.5);
+}
+button.cv,
+button.linkedin,
+button.laika {
+  color: blueviolet;
+  font-weight: bold;
+  width: 170px;
+  padding: 9px 15px;
+  margin-right: 10px;
+}
+button.cv:hover,
+button.linkedin:hover,
+button.laika:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+button.edit {
+  padding: 9px 15px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+}
+button.edit:hover {
+  background-color: white;
+  color: blueviolet !important;
+  border: 1px solid blueviolet;
+}
+button.download {
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 9px 15px;
+}
+button.download:hover {
+  background-color: white;
+  color: blueviolet !important;
+  border: 1px solid blueviolet;
+}
+.active {
+  background-color: blueviolet;
+  color: white !important;
+}
+
+/* banner all pages */
+.banner {
+  width: 100%;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+}
+.banner .left {
+  background-color: rgb(237, 230, 63);
+}
+.banner .right {
+  background-color: rgb(119, 56, 255);
+}
+.banner p {
+  margin: 10px;
+  color: white;
+}
+.banner .button {
+  background-color: rgb(7, 25, 35);
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-left: 30px;
+  font-size: 12px;
+}
+.banner .button:hover {
+  background-color: white;
+  color: rgb(7, 25, 35);
+  border: 1px solid rgb(7, 25, 35);
+}
+.banner-bottom {
+  position: absolute;
+  bottom: 0;
+}
+/* CVs all pages */
+.main-cv {
+  margin-bottom: 10px;
+}
+.left-cv {
+  height: 100vh;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.15);
+  margin: 60px 20px; 
+  padding-bottom: 50px;
+}
+.right-tips {
+  height: 100vh;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.15);
+  margin: 60px 10px 30px 40px;
+  padding: 50px 20px;
+}
+
+.italic {
+  font-style: italic;
+  color: grey;
+}
+.bold {
+  font-weight: bold;
+}
+.black {
+  color: black;
+}
+.show {
+  display: block;
+}

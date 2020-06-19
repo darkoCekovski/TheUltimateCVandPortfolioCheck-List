@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Development</title>
+    <meta name="keywords" content="html,css,bootstrap,javascript" />
+    <meta name="description" content="" />
+    <meta name="author" content="Darko Cekovski" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/webdevCV.css" />
+    <!-- Font-awesome 4.7 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid ">
+      <div class="row main-cv">
+        <div class="col-md-7 left-cv">
+          <div class="buttons">
+            <button class="btn cv active">CV</button>
+            <button
+              onclick="location.href='linkedTips.html'"
+              class="btn linkedin"
+            >
+              LINKEDIN
+            </button>
+            <button onclick="location.href='laikaTips.html'" class="btn laika">
+              WEARELAIKA.COM
+            </button>
+            <button class="btn edit active">EDIT</button>
+            <button class="btn download active">DOWNLOAD</button>
+          </div>
+
+          <div class="webdev">
+            <div class="cv-content">
+              <div class="row">
+                <div class="col-md-1">
+                  <div
+                    class="square"
+                    style="background-color: rgb(54, 68, 86);"
+                  ></div>
+                </div>
+                <div class="col-md-4 contentedit" contenteditable="false">
+                  <h4>Elon Musk</h4>
+                  <h5 style="color: grey;">
+                    Enterpreneuer, Engeneer, Inventor, and Investor
+                  </h5>
+                  <p class="intro">
+                    Aiming to reduce global warming trought sustainable energy
+                    production and consuption. Planning to reduce the risk of
+                    human extinction by making life multy-planetary and setting
+                    up a human colony on Mars.
+                  </p>
+                </div>
+                <div class="col-md-2">
+                  <img
+                    src="assets/images/elon-musk.png"
+                    alt="elon-musk"
+                    id="webdevImg"
+                  />
+                  <input
+                    type="file"
+                    id="inputWebdevImg"
+                    style="display: none;"
+                  />
+                  <div id="webdevRes"></div>
+                </div>
+                <div
+                  class="col-md-5 contacts contentedit"
+                  contenteditable="false"
+                >
+                  <p>
+                    elon@teslamotors.com<i
+                      class="fa fa-envelope"
+                      aria-hidden="true"
+                    ></i>
+                  </p>
+                  <p>
+                    620-681-5000<i class="fa fa-mobile" aria-hidden="true"></i>
+                  </p>
+                  <p>
+                    Los Angeles, USA<i
+                      class="fa fa-map-marker"
+                      aria-hidden="true"
+                    ></i>
+                  </p>
+                  <p>
+                    @elonmusk<i class="fa fa-twitter" aria-hidden="true"></i>
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-md-7">
+                  <h5 class="we bold">WORK EXPERIENCE</h5>
+                  <div class="row contentedit workexp" contenteditable="false">
+                    <div class="col-md-1">
+                      <div class="square"></div>
+                    </div>
+                    <div class="col-md-11 we-text">
+                      <h6>Founder, CEO & Lead Designer</h6>
+                      <h6>SpaceX - Space Exploration Technologies</h6>
+                      <div class="row italic">
+                        <div class="col-md-6">
+                          <p>06/2002 - Present</p>
+                        </div>
+                        <div class="col-md-6">
+                          <p>Howthorne, USA</p>
+                        </div>
+                      </div>
+                      <p class="italic">Accomplishments</p>
+                      <ul type="square">
+                        <li>
+                          Successfully launched Falcon Heavy, the most powerfull
+                          operational rocket in the world by a factor of a two,
+                          with ability to lift into orbit nearly 64 metric tons
+                          (141,000 lb) a mass greather then a 737 jetliner
+                          loaded with passengers, crew, lagguge and fuel.
+                        </li>
+                        <li>
+                          Plans to reduce space transportation costs to enable
+                          people to colonize Mars.
+                        </li>
+                        <li>
+                          Developed the Falcon 9 spacecraft which replaced the
+                          space shuttle when it retired in 2011.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row contentedit workexp" contenteditable="false">
+                    <div class="col-md-1">
+                      <div class="square"></div>
+                    </div>
+                    <div class="col-md-11 we-text">
+                      <h6>Founder</h6>
+                      <h6>The Boring Company</h6>
+                      <div class="row italic">
+                        <div class="col-md-6">
+                          <p>12/2016 - Present</p>
+                        </div>
+                        <div class="col-md-6">
+                          <p>Howthorne, USA</p>
+                        </div>
+                      </div>
+                      <p class="italic">Accomplishments</p>
+                      <ul type="square">
+                        <li>
+                          Raised $10m by selling 20000 flamethrowers in 4 days.
+                        </li>
+                        <li>
+                          Raised $1m by selling 50000 baselball caps.
+                        </li>
+                        <li>
+                          Hyperloop--an ultra high speed underground public
+                          transportation system in which passengers are
+                          transportet in autonomous electric pods traveling at
+                          600+ miles per hour in a pressurized cabin.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row contentedit workexp" contenteditable="false">
+                    <div class="col-md-1">
+                      <div class="square"></div>
+                    </div>
+                    <div class="col-md-11 we-text">
+                      <h6>CEO and Product Architect</h6>
+                      <h6>Tesla Inc.</h6>
+                      <div class="row italic">
+                        <div class="col-md-6">
+                          <p>2004 - Present</p>
+                        </div>
+                        <div class="col-md-6">
+                          <p>San Mateo, USA</p>
+                        </div>
+                      </div>
+                      <p class="italic">Accomplishments</p>
+                      <ul type="square">
+                        <li>
+                          Global sales passes 250000 units in September 2017.
+                        </li>
+                        <li>
+                          Consumed Reports named Tesla as the top American car
+                          brand and ranked at 8th among global carmakers in
+                          February 2017.
+                        </li>
+                        <li>
+                          Topped Consumers Report Annual Owner Satisfaction
+                          Survey at 91% in 2016.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row contentedit workexp" contenteditable="false">
+                    <div class="col-md-1">
+                      <div class="square"></div>
+                    </div>
+                    <div class="col-md-11 we-text">
+                      <h6>Co-founder and Former Chairman</h6>
+                      <h6>SolarCity (subsidiary of Tesla Inc.)</h6>
+                      <div class="row italic">
+                        <div class="col-md-6">
+                          <p>06/2006 - Present</p>
+                        </div>
+                        <div class="col-md-6">
+                          <p>San Mateo, USA</p>
+                        </div>
+                      </div>
+                      <p class="italic">Accomplishments</p>
+                      <ul type="square">
+                        <li>
+                          Merged the company with Tesla Inc. and now offers
+                          energy storage services through Tesla, Including a
+                          turnkey residenital battery backup service thats
+                          incorporete Tesla's Powerwall.
+                        </li>
+                        <li>
+                          In 2015 installed 850MW of solar power, aproximately a
+                          28% of non-utility solar installation in the US that
+                          year.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row contentedit workexp" contenteditable="false">
+                    <div class="col-md-1">
+                      <div class="square"></div>
+                    </div>
+                    <div class="col-md-11 we-text">
+                      <h6>Founder and CEO</h6>
+                      <h6>Neurolink</h6>
+                      <div class="row italic">
+                        <div class="col-md-6">
+                          <p>07/2016 - Present</p>
+                        </div>
+                        <div class="col-md-6">
+                          <p>San Francisco, USA</p>
+                        </div>
+                      </div>
+                      <p class="italic">Vision</p>
+                      <ul type="square">
+                        <li>
+                          A company aims to make devices to treat serious brain
+                          diseases in the short-term, with the eventual goal of
+                          human enhancement.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <h5 class="bold">SKILLS & COMPETENCIES</h5>
+                  <div class="contentedit skills" contenteditable="false">
+                    <span>Thinking throw first principles</span>
+                    <span>Marketing</span>
+                    <span>Micromenagment</span>
+                    <span>Goal oriented</span>
+                    <span>Resiliency</span>
+                    <span>Future focused</span>
+                    <span>Leadership</span>
+                    <span>Creativity</span>
+                    <span>Time management</span>
+                    <span>Persistence</span>
+                    <span>Turning ideas into companies</span>
+                    <span>Long-tearm thinking</span>
+                  </div>
+                  <h5 class="bold">ACHIEVEMENTS & CERTIFICATES</h5>
+                  <div class="contentedit achivment" contenteditable="false">
+                    <h6>53th Richest person in the world - Forbes (2018)</h6>
+                    <h6>
+                      21st on the Forbes list on The World's Most Powerful
+                      People.
+                    </h6>
+                    <h6>IEEE Honorary Membership (2015)</h6>
+                    <p style="color: grey;">
+                      Given to people who have rendered meritourious service to
+                      humanity in the IEEE's designated fields od interest.
+                    </p>
+                    <h6>
+                      Businessperosn of the year by Fortune Magazine (2013)
+                    </h6>
+                    <h6>FAI Gold Space Medal (2010)</h6>
+                    <p style="color: grey;">
+                      One of the highest honors in the aerospace shared with
+                      praminent personalities like Nill Armstrong and John
+                      Glenn.
+                    </p>
+                    <h6>
+                      Honorary Doctorate in Design from the art Center College
+                      of Design
+                    </h6>
+                    <h6>
+                      Honorary Doctorate in Aerospace Engeenering University of
+                      Surrey
+                    </h6>
+                    <h6>
+                      Honorary Doctorate of Engeenering and Technology from Yale
+                      University
+                    </h6>
+                  </div>
+                  <h5 class="bold">INTERESTS</h5>
+                  <div
+                    class="row contentedit interests"
+                    contenteditable="false"
+                  >
+                    <div class="col-md-6">
+                      <h6>Phisics</h6>
+                      <h6>Suistanability</h6>
+                      <h6>Philantrophy</h6>
+                      <h6>Twitter</h6>
+                      <h6>Extraterestrial Life</h6>
+                    </div>
+                    <div class="col-md-6">
+                      <h6>Alternative Energy</h6>
+                      <h6>Space Engineering</h6>
+                      <h6>Reading</h6>
+                      <h6>Video Games</h6>
+                      <h6>AI</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="editor"></div>
+        </div>
+        <div class="col-md-4 col-md-offset-1 right-tips">
+          <p class="tips_sugestion">
+            Click for detail tips and suggestions on every field.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid banner banner-bottom">
+      <div class="row ">
+        <div class="col-md-6 left">
+          <div>
+            <p>
+              Do you want to learn hand-on digital skills?
+              <a href="https://brainster.co/" target="_blank" class="btn button"
+                >VISIT BRAINSTER</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 right">
+          <div>
+            <p>
+              Do you want to recive job offers by IT Companies?
+              <a
+                href=" https://www.wearelaika.com/ "
+                target="_blank"
+                class="btn button"
+                >VISIT LAIKA</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script src="assets/js/webdevCV.js"></script>
+  </body>
+</html>
